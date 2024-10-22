@@ -1,14 +1,14 @@
-package Moves;
+package moves;
 
 import ru.ifmo.se.pokemon.Pokemon;
 import ru.ifmo.se.pokemon.SpecialMove;
 import ru.ifmo.se.pokemon.Stat;
 import ru.ifmo.se.pokemon.Type;
 
-public class Psychic extends SpecialMove {
+public class AuroraBeam extends SpecialMove {
 
-    public Psychic() {
-        super(Type.PSYCHIC, 90, 100);
+    public AuroraBeam() {
+        super(Type.ICE, 65, 100);
     }
 
     @Override
@@ -18,13 +18,13 @@ public class Psychic extends SpecialMove {
 
     @Override
     protected void applyOppEffects(Pokemon p) {
-        if (Math.random() <= 0.1) {
-            p.setMod(Stat.DEFENSE, (int) p.getStat(Stat.DEFENSE) - 1);
+        if (Math.random() <= 0.1){
+            p.setMod(Stat.ATTACK, (int)p.getStat(Stat.ATTACK) - 1);
         }
     }
 
     @Override
     protected String describe() {
-        return "использует атаку Psychic";
+        return "использует атаку Aurora Beam";
     }
 }

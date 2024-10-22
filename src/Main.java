@@ -1,7 +1,6 @@
-import Models.Poison.*;
-import Models.Psychic.*;
-import Models.PoisonGrass.*;
-import Models.Psychic.Cresselia;
+import models.poison.*;
+import models.poisonGrass.*;
+import models.psychic.Cresselia;
 import ru.ifmo.se.pokemon.Battle;
 
 class Main {

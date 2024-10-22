@@ -1,7 +1,6 @@
-package Moves;
+package moves;
 
 import ru.ifmo.se.pokemon.PhysicalMove;
-import ru.ifmo.se.pokemon.Pokemon;
 import ru.ifmo.se.pokemon.Type;
 
 public class Slam extends PhysicalMove {

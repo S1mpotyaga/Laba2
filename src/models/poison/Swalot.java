@@ -1,12 +1,8 @@
-package Models.Poison;
+package models.poison;
 
-import Moves.*;
+import moves.*;
 
 public class Swalot extends Gulpin {
-
-    private static double height = 1.7;
-    private static double weight = 80;
-    private static String color = "PURPLE";
 
     public Swalot() {
         super();

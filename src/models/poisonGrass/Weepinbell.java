@@ -1,13 +1,8 @@
-package Models.PoisonGrass;
+package models.poisonGrass;
 
-import Moves.*;
-import ru.ifmo.se.pokemon.Type;
+import moves.*;
 
 public class Weepinbell extends Bellsprout {
-
-    private static final double height = 0.99;
-    private static final double weight = 6.39;
-    private static final String color = "GREEN";
 
     public Weepinbell() {
         super();

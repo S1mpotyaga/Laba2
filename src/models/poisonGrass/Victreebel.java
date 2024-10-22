@@ -1,13 +1,8 @@
-package Models.PoisonGrass;
+package models.poisonGrass;
 
-import Moves.*;
-import ru.ifmo.se.pokemon.Type;
+import moves.*;
 
 public class Victreebel extends Weepinbell {
-
-    private static final double height = 1.7;
-    private static final double weight = 15.5;
-    private static final String color = "GREEN";
 
     public Victreebel() {
         super();

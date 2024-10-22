@@ -1,17 +1,13 @@
-package Models.Psychic;
+package models.psychic;
 
 import ru.ifmo.se.pokemon.Pokemon;
 import ru.ifmo.se.pokemon.Type;
 
-import Moves.*;
+import moves.*;
 
 public class Cresselia extends Pokemon {
 
-    private static double hieght = 1.5;
-    private static double weight = 85.6;
-    private static String color = "YELLOW";
-
-    Cresselia() {
+    public Cresselia() {
         super();
         setType(Type.PSYCHIC);
     }

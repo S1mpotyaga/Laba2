@@ -1,13 +1,14 @@
-package Moves;
+package moves;
 
 import ru.ifmo.se.pokemon.Pokemon;
 import ru.ifmo.se.pokemon.SpecialMove;
+import ru.ifmo.se.pokemon.Stat;
 import ru.ifmo.se.pokemon.Type;
-import ru.ifmo.se.pokemon.Effect;
 
-public class IceBeam extends SpecialMove {
-    public IceBeam() {
-        super(Type.ICE, 95, 100);
+public class ShadowBall extends SpecialMove {
+
+    public ShadowBall() {
+        super(Type.GHOST, 80, 100);
     }
 
     @Override
@@ -17,13 +18,13 @@ public class IceBeam extends SpecialMove {
 
     @Override
     protected void applyOppEffects(Pokemon p) {
-        if (Math.random() <= 0.1) {
-            Effect.freeze(p);
+        if (Math.random() <= 0.2){
+            p.setMod(Stat.DEFENSE, (int)(p.getStat(Stat.DEFENSE)) - 1);
         }
     }
 
     @Override
     protected String describe() {
-        return "использует атаку Ice Beam";
+        return "использует атаку Shadow Ball";
     }
 }

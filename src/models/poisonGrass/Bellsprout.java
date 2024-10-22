@@ -1,15 +1,11 @@
-package Models.PoisonGrass;
+package models.poisonGrass;
 
 import ru.ifmo.se.pokemon.Pokemon;
 
-import Moves.*;
+import moves.*;
 import ru.ifmo.se.pokemon.Type;
 
 public class Bellsprout extends Pokemon {
-
-    private static final double height = 0.7;
-    private static final double weight = 4.0;
-    private static final String color = "GREEN";
 
     public Bellsprout() {
         super();

@@ -1,15 +1,11 @@
-package Models.Poison;
+package models.poison;
 
 import ru.ifmo.se.pokemon.Pokemon;
 import ru.ifmo.se.pokemon.Type;
 
-import Moves.*;
+import moves.*;
 
 public class Gulpin extends Pokemon {
-
-    private static final double height = 0.41;
-    private static final double weight = 10.29;
-    private static final String color = "GREEN";
 
     public Gulpin() {
         super();
